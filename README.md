@@ -1,4 +1,4 @@
-# Media Downloader
+# big_DOWNLOAD
 
 A simple Python application to download videos and audio from YouTube and other supported platforms using yt-dlp.
 
@@ -124,7 +124,7 @@ Use cookies from browser for authentication? (y/n, default: n): n
 ✅ Download complete! Files saved in: /path/to/downloads
 
 🔄 Download another file? (y/n): n
-👋 Thanks for using YouTube Media Downloader!
+👋 Thanks for using big_DOWNLOAD!
 ```
 
 ### Downloaded Files

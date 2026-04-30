@@ -127,7 +127,7 @@ def download_media(url, download_type="video", use_cookies=False, browser_name="
 def main():
     """Main function to handle user interaction."""
     print("=" * 60)
-    print("🎥 YouTube Media Downloader")
+    print("🎥 big_DOWNLOAD")
     print("=" * 60)
     print("Supports: YouTube, Vimeo, and many other platforms")
     print("Download options: audio (MP3) or video (MP4)")
@@ -172,7 +172,7 @@ def main():
             if success:
                 another = input("\n🔄 Download another file? (y/n): ").lower().strip()
                 if another not in ['y', 'yes']:
-                    print("👋 Thanks for using YouTube Media Downloader!")
+                    print("👋 Thanks for using big_DOWNLOAD!")
                     break
                 print()  # Add blank line for next iteration
 
