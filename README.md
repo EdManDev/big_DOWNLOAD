@@ -49,6 +49,7 @@ python app.py
 
 ```bash
 cd /path/to/big_DOWNLOAD
+sudo apt install -y python3-venv python3-full
 ```
 
 ### 2. Create Virtual Environment (Recommended)
