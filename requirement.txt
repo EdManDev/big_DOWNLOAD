@@ -1,1 +1,7 @@
-pip install --upgrade yt-dlp
+# Core downloader with default dependencies
+yt-dlp[default]
+
+# PO Token provider - prevents fallback to low-res format 18 on YouTube
+# Required for full-quality formats when using "web"/"tv" clients without cookies
+# yt-dlp picks this up automatically after installation
+bgutil-ytdlp-pot-provider
